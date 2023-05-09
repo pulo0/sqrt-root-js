@@ -9,7 +9,7 @@ Just to get you up and running using this code, here's step by step how to do it
 **1.** Clone the repo into your device.
 
 ```
-git clone https://pulo0/sqrt-root-js.git
+git clone https://github.com/pulo0/sqrt-root-js.git
 ```
 
 **2.** Install <a href="https://nodejs.org/en/download">Node.js</a>
