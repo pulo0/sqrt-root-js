@@ -77,6 +77,8 @@ function squareRoot() {
     console.log(`
     Hey, I've got some good news ${userName}!
     Your square root of ${triangleArea} is here and it's ${secondSide.toFixed(1)}
+    To learn some more about Heron's Formula, here's an article:
+    https://www.hellenicaworld.com/Greece/Science/en/HeronsMath.html
     `);
 }
 
