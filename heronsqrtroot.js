@@ -3,8 +3,8 @@ function squareRoot() {
     /* 
     A bunch of variables
     To not create them during the code
-    It might have been confusing and difficult
-    to keep track of them
+    It could be confusing and difficult
+    to keep track of
     */
     let userName;
     let userChoice;
@@ -32,7 +32,11 @@ function squareRoot() {
     `);
     
     userChoice = Number(userInput());
-
+    /*
+    This is put here to give user an option to leave
+    While the choice of an user isn't 1 then it will...
+    ...give an error
+    */
     while (userChoice != 1) {
         console.log(`
         Oh, that's alright ${userName}
@@ -51,6 +55,14 @@ function squareRoot() {
     Nice! Your number is ${triangleArea}
     `);
 
+    /*
+        It might be confusing at first...
+        ...but it's just a formula and that Heron's method...
+        ...of calculating a square root
+        I don't if this will help but here's some more...
+        ...about the Heron's Formula
+        https://www.hellenicaworld.com/Greece/Science/en/HeronsMath.html
+    */
     firstSide = triangleArea;
     secondSide = triangleArea / firstSide;
     rootEquation = firstSide - secondSide;
